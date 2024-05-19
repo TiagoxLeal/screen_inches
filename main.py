@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import subprocess
 # change the round factor if you like
 r = 1
