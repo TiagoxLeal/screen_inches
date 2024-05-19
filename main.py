@@ -20,3 +20,4 @@ print(("\t").join(["Screen", "width", "height", "diagonal\n"+32*"-"]))
 for s in scr_data:
     scr = s[0]; w = s[1]/25.4; h = s[2]/25.4; d = ((w**2)+(h**2))**(0.5)
     print(("\t").join([scr]+[str(round(n, 1)) for n in [w, h, d]]))
+
